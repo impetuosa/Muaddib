@@ -5,5 +5,4 @@ testJDBCAndHibernatePluginDetectorDetects2
 	analyzer
 		useJDBCPlugin;
 		useHibernatePlugin.
-	analyzer analyze: model.
-	self assert: analyzer datasources size equals: 2
+	self assert: (analyzer datasourcesFor: model) size equals: 2

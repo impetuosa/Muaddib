@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"plugins"
+		"path"
 	],
-	"name" : "MDAnalyzer",
+	"name" : "MDResourceFile",
 	"type" : "normal"
 }

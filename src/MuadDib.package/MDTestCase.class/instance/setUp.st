@@ -1,5 +1,5 @@
 accessing
 setUp
 	super setUp.
-	model := self project: #MultipleSourcesProject from: 'git@github.com:impetuosa/MultipleSourceProject.git'.
+	model := self project: #MultipleSourceProject from: 'git@github.com:impetuosa/MultipleSourceProject.git'.
 	

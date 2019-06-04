@@ -3,5 +3,4 @@ testHibernatePluginDetectorDetects1
 	| analyzer |
 	analyzer := MDAnalyzer new.
 	analyzer useHibernatePlugin.
-	analyzer analyze: model.
-	self assert: analyzer datasources size equals: 1
+	self assert: (analyzer datasourcesFor: model) size equals: 1

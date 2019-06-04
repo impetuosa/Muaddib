@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"plugins"
+		"classpath"
 	],
-	"name" : "MDAnalyzer",
+	"name" : "MDEntityClassReference",
 	"type" : "normal"
 }
