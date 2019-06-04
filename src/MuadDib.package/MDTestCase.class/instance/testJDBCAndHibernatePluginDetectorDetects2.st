@@ -1,7 +1,7 @@
 accessing
 testJDBCAndHibernatePluginDetectorDetects2
 	| analyzer |
-	analyzer := MDAnalyzer new.
+	analyzer  := MDAnalyzer new.
 	analyzer
 		useJDBCPlugin;
 		useHibernatePlugin.
