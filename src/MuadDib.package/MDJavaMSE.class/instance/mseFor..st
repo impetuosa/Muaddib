@@ -1,5 +1,5 @@
 as yet unclassified
-getMseFor: aResource
+mseFor: aResource
 	(aResource asFileReference / aResource branch , 'mse') exists
 		ifFalse: [ | future |
 			future := (MDGitResources verveinej / 'verveinej.sh') command

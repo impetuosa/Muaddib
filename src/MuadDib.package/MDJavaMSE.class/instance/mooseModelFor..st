@@ -1,7 +1,7 @@
 as yet unclassified
-getMooseModelFor: aResource
+mooseModelFor: aResource
 	| mse project |
-	mse := self getMseFor: MDGitResources multipleSourceProject.
+	mse := self mseFor: MDGitResources multipleSourceProject.
 	project := MooseModel importFromMSEStream: mse readStream.
 	project rootFolder: aResource asFileReference.
 	^ project 
