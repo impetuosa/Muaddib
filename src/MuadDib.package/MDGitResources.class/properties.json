@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MuadDib",
+	"classinstvars" : [
+		"verveinej",
+		"multipleSourceProject"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"url",
+		"branch",
+		"repository"
+	],
+	"name" : "MDGitResources",
+	"type" : "normal"
+}
