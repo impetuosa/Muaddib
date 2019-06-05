@@ -6,4 +6,4 @@ baseline: spec
 	self carrefour: spec.
 	spec
 		package: #MuadDib
-		with: [ spec requires: #(Moose ParametrizedTests Carrefour) ]
+		with: [ spec requires: #(Moose ParametrizedTests Carrefour TaskItShell) ]
