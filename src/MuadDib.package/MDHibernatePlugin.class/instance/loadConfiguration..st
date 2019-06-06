@@ -1,7 +1,8 @@
 configuration
 loadConfiguration: aFileReference
-	| document sessions datasource |
+	| document sessions datasource factory |
 	document := XMLDOMParser parse: aFileReference readStream.
+	factory := MDDataObjectFactory new.
 	sessions := (document nodes
 		select: [ :n | n name = #'hibernate-configuration' ])
 		flatCollect: [ :c | 
@@ -12,5 +13,5 @@ loadConfiguration: aFileReference
 	datasource
 		data:
 			((sessions first nodes select: #isElement)
-				collect: [ :i | MDDataObjectFactory createObjectFor: i ]).
+				collect: [ :i | factory createObjectFor: i ]).
 	^ datasource
