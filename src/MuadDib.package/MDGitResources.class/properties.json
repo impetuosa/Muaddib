@@ -1,11 +1,8 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "SantiagoBragagnolo 5/11/2022 16:48",
 	"super" : "Object",
 	"category" : "MuadDib",
-	"classinstvars" : [
-		"verveinej",
-		"multipleSourceProject"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

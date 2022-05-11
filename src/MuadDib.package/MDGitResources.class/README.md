@@ -1,0 +1,1 @@
+Download a Git resource and allows to interact with it as a reference 

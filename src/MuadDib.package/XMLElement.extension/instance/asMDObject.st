@@ -1,3 +1,0 @@
-*MuadDib
-asMDObject
-	self shouldBeImplemented.
